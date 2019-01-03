@@ -18,6 +18,11 @@
 		<constructor-arg name="city" value="Hyderabad" />
 		<constructor-arg name="state" value="AP" />
 	</bean>
+	
+	<bean id="address1" class="com.spring._06wiringwithannotations.Address">
+		<constructor-arg name="city" value="Indore" />
+		<constructor-arg name="state" value="MP" />
+	</bean>
 
 	<bean id="company" class="com.spring._06wiringwithannotations.Company">
 		<constructor-arg name="companyName" value="CSC" />
