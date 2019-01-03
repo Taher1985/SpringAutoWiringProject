@@ -1,4 +1,4 @@
-package com.spring._04autowiringbytypeprimary;
+package com.spring._04attributeprimarytrue;
 
 public interface Address {
 

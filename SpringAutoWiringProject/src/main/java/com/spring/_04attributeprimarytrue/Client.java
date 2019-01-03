@@ -1,4 +1,4 @@
-package com.spring._04autowiringbytypeprimary;
+package com.spring._04attributeprimarytrue;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
