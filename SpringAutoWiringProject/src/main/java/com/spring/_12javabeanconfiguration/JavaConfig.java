@@ -23,12 +23,19 @@ public class JavaConfig {
 		Company company = new Company("CSC"); // Constructor based DI
 		return company;
 	}
-
+	
 	@Bean
 	public Address address() {
 		Address address = new Address("Chennai", "TN"); // Constructor based DI
 		address.setCompany(company()); // Setter based DI
 		return address;
 	}
-
+	
+	@Bean
+	public Employee employee1() {
+		Employee employee = new Employee();
+		employee.setName("Ali"); // Setter based DI
+		employee.setAddress(address()); // Setter based DI
+		return employee;
+	}
 }

@@ -9,6 +9,9 @@ public class Client {
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("/_12applicationcontainerbeans.xml");
 
+		Employee employee1 = (Employee) context.getBean("employee1");
+		employee1.employeeAddress();
+		
 		Employee employee = (Employee) context.getBean("employee");
 		employee.employeeAddress();
 
